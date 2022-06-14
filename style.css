@@ -5,11 +5,11 @@
 
 :root {
   --primaryColor: #fff;
-  --navColor1: #21292c;
-  --navColor2: #aa3e39;
-  --navColor3: #aa6e39;
-  --navColor4: #236267;
-  --navColor5: #2c8437;
+  --navColor1: #2b363a;
+  --navColor2: #3d4c52;
+  --navColor3: #4c5f66;
+  --navColor4: #667f88;
+  --navColor5: #7999a3;
 }
 
 html {
@@ -32,7 +32,7 @@ body {
 }
 .console-container { 
   font-family: menlo;
-  font-size:4em;
+  font-size:2em;
   text-align:center;
   text-transform: none;
   height:200px;
@@ -290,13 +290,23 @@ section#projects {
 }
 
 
+/* About */
+.about{
+  align-content: center;
+  font-size: 18px;
+  /* text-transform: none; */
+  position: absolute;
+  margin-top: 20%;
+  text-align: center;
+}
+
 /* Strengths */
 .strengths {
   float: left;
   margin-top: 10%;
   margin-bottom: 10%;
-  margin-left: auto;
-  margin-right: 15%; 
+  margin-left: 15%;
+  margin-right: 20%; 
   display: flex;
   position: absolute;
   max-width: 1000px;
@@ -306,6 +316,7 @@ section#projects {
 h1 {
   margin-top: 30px;
   text-align: center;
+  font-size: 20px;
 }
 * {box-sizing:border-box}
 /* Slideshow container */
@@ -657,7 +668,7 @@ body, button, input {
     max-width: auto;
   }
   h1 {
-    font-size: 14px;
+    font-size: 17px;
   }
   section#home a {
     top: 1rem;
@@ -666,6 +677,19 @@ body, button, input {
   .menu-bars {  
     top: 0.5rem;
     right: 1rem;
+  }
+  /* About */
+  .about{
+    align-content: center;
+    font-size: 16px;
+    /* text-transform: none; */
+    position: absolute;
+    margin-top: 60%;
+    text-align: center;
+  }
+  /* Contact Us */
+  .app-contact {
+    text-decoration: none;
   }
   /* Animated Welcome Text */
   .hidden {
